@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+data/processed/*.csv
+data/external/*.csv
+models/*.pkl
+database/*.db
+.streamlit/secrets.toml
+.DS_Store

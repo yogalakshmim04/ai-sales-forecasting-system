@@ -8,3 +8,4 @@ plotly
 streamlit
 joblib
 reportlab>=4.0
+xgboost

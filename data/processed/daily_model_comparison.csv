@@ -1,0 +1,8 @@
+Model,MAE,RMSE,R2,WAPE_%
+Random Forest,12977.85,29524.75,0.408,24.2
+XGBoost,13801.16,29910.38,0.392,25.74
+Seasonal Naive (same day last week),15469.8,31613.75,0.321,28.85
+Linear Regression,15826.72,30943.23,0.35,29.52
+Decision Tree,19060.42,31430.66,0.329,35.55
+Moving Average (7-day),25958.33,38539.88,-0.009,48.41
+Naive (yesterday),29645.11,39805.82,-0.076,55.29

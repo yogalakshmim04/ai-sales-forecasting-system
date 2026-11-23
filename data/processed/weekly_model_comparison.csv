@@ -1,0 +1,7 @@
+Model,MAE,RMSE,R2,WAPE_%
+Naive (last week),38322.11,45632.74,-0.126,12.24
+Random Forest,38391.29,46841.58,-0.186,12.27
+XGBoost,40570.93,49025.13,-0.299,12.96
+Moving Average (4-week),43929.66,56801.2,-0.744,14.03
+Decision Tree,59458.93,78366.52,-2.32,19.0
+Linear Regression,102076.67,122529.38,-7.115,32.61

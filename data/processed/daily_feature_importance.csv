@@ -1,0 +1,65 @@
+Model,Feature,Importance
+Linear Regression,Month,0.0095
+Linear Regression,Quarter,0.0026
+Linear Regression,Day,0.0401
+Linear Regression,DayOfWeek,0.0463
+Linear Regression,WeekOfYear,0.053
+Linear Regression,IsMonthStart,0.0304
+Linear Regression,IsMonthEnd,0.0149
+Linear Regression,lag_1,0.0536
+Linear Regression,lag_7,0.0936
+Linear Regression,lag_14,0.0835
+Linear Regression,lag_28,0.1119
+Linear Regression,rolling_mean_7,0.2196
+Linear Regression,rolling_mean_14,0.0624
+Linear Regression,rolling_mean_28,0.0892
+Linear Regression,rolling_std_7,0.0572
+Linear Regression,diff_1_7,0.0323
+Decision Tree,Month,0.0099
+Decision Tree,Quarter,0.0
+Decision Tree,Day,0.0151
+Decision Tree,DayOfWeek,0.0303
+Decision Tree,WeekOfYear,0.1584
+Decision Tree,IsMonthStart,0.0
+Decision Tree,IsMonthEnd,0.0
+Decision Tree,lag_1,0.0082
+Decision Tree,lag_7,0.5062
+Decision Tree,lag_14,0.0334
+Decision Tree,lag_28,0.1034
+Decision Tree,rolling_mean_7,0.0109
+Decision Tree,rolling_mean_14,0.0094
+Decision Tree,rolling_mean_28,0.0035
+Decision Tree,rolling_std_7,0.0
+Decision Tree,diff_1_7,0.1113
+Random Forest,Month,0.0081
+Random Forest,Quarter,0.0016
+Random Forest,Day,0.0334
+Random Forest,DayOfWeek,0.1633
+Random Forest,WeekOfYear,0.0922
+Random Forest,IsMonthStart,0.0
+Random Forest,IsMonthEnd,0.0004
+Random Forest,lag_1,0.0318
+Random Forest,lag_7,0.3247
+Random Forest,lag_14,0.0441
+Random Forest,lag_28,0.0715
+Random Forest,rolling_mean_7,0.0538
+Random Forest,rolling_mean_14,0.0483
+Random Forest,rolling_mean_28,0.0655
+Random Forest,rolling_std_7,0.0219
+Random Forest,diff_1_7,0.0395
+XGBoost,Month,0.0431
+XGBoost,Quarter,0.0028
+XGBoost,Day,0.0375
+XGBoost,DayOfWeek,0.1909
+XGBoost,WeekOfYear,0.0907
+XGBoost,IsMonthStart,0.0034
+XGBoost,IsMonthEnd,0.0277
+XGBoost,lag_1,0.0403
+XGBoost,lag_7,0.2117
+XGBoost,lag_14,0.0532
+XGBoost,lag_28,0.0589
+XGBoost,rolling_mean_7,0.0517
+XGBoost,rolling_mean_14,0.0632
+XGBoost,rolling_mean_28,0.062
+XGBoost,rolling_std_7,0.026
+XGBoost,diff_1_7,0.0369

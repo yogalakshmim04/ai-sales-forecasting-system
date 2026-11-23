@@ -1,0 +1,45 @@
+Model,Feature,Importance
+Linear Regression,Month,0.0858
+Linear Regression,Quarter,0.0141
+Linear Regression,WeekOfYear,0.1487
+Linear Regression,lag_1,0.1702
+Linear Regression,lag_2,0.0114
+Linear Regression,lag_4,0.1137
+Linear Regression,rolling_mean_4,0.1414
+Linear Regression,rolling_std_4,0.0178
+Linear Regression,lag_1_ratio,0.1621
+Linear Regression,lag_2_ratio,0.012
+Linear Regression,lag_4_ratio,0.1227
+Decision Tree,Month,0.0
+Decision Tree,Quarter,0.0
+Decision Tree,WeekOfYear,0.0164
+Decision Tree,lag_1,0.1828
+Decision Tree,lag_2,0.0
+Decision Tree,lag_4,0.071
+Decision Tree,rolling_mean_4,0.4626
+Decision Tree,rolling_std_4,0.2672
+Decision Tree,lag_1_ratio,0.0
+Decision Tree,lag_2_ratio,0.0
+Decision Tree,lag_4_ratio,0.0
+Random Forest,Month,0.0148
+Random Forest,Quarter,0.0107
+Random Forest,WeekOfYear,0.0952
+Random Forest,lag_1,0.0446
+Random Forest,lag_2,0.117
+Random Forest,lag_4,0.0355
+Random Forest,rolling_mean_4,0.3161
+Random Forest,rolling_std_4,0.0857
+Random Forest,lag_1_ratio,0.1756
+Random Forest,lag_2_ratio,0.0358
+Random Forest,lag_4_ratio,0.069
+XGBoost,Month,0.0384
+XGBoost,Quarter,0.0375
+XGBoost,WeekOfYear,0.0712
+XGBoost,lag_1,0.0518
+XGBoost,lag_2,0.1429
+XGBoost,lag_4,0.0464
+XGBoost,rolling_mean_4,0.288
+XGBoost,rolling_std_4,0.091
+XGBoost,lag_1_ratio,0.1376
+XGBoost,lag_2_ratio,0.0382
+XGBoost,lag_4_ratio,0.0569
